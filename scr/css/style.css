@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+
+:root{
+    --cor0: #2AAEBF;
+    --cor1: #1C7480;
+    --cor2: #38E8FF;
+    --cor3: #0E3A40;
+    --cor4: #32D1E6;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--cor4);
+    }
+
+main{
+    
+    background-image: url(/scr/imagens/Backgroud.png);
+    max-height: 1000px;
+    min-width: 300px;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 10px black;
+    
+}
+
+#container {
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 20px;
+    padding: 20px;
+    width: 80%;
+    max-width: 500px;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    background-color: rgba(255, 255, 255, 0.438);
+    border-radius: 10px;
+    
+}
+
+#informacoes{
+    padding: 0 10px;
+       
+}
+
+#informacoes h1 {
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: var(--cor2);
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.527);
+    font-family: 'Alkatra', cursive;
+    font-size: 3em;
+}
+
+
+p {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    color: #1C7480;
+    
+}
+
+.presente {
+    font-size: 1.5em;
+    color: var(--cor3)
+}
+
+#bebida{
+    margin-top: 5px;
+}
+
+.whatsapp {
+	background-color: #25D366;
+	color: #FFF;
+	padding: 5px 10px;
+	text-decoration: none;
+	border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    
+}
+
+
+@media screen and (max-width: 600px) {
+
+    main{
+        height: 780px;
+        background-size: auto 100%;
+        margin-top: 0;
+        padding-top: 40%;
+        }
+    
+    body {
+        height: 100%;
+        }
+
+    header > img{
+        margin: 250px 0 0 0;
+        padding: 0%;
+        width: 380px;
+    }
+    #container {
+    padding: 10px;
+    margin: 0px 0 0 37px;
+    }
+    
+    p {
+        font-size: 18px;
+    }
+}
